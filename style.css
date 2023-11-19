@@ -1,0 +1,56 @@
+body{
+    background-image: url(./v1016-c-08.png);
+    
+}
+
+#profile img {
+    width: 190px;
+    display: block;
+    margin: auto;
+    border-radius: 90px;
+    opacity: 40%;
+    margin-top: 40px;
+}
+
+#profile img:hover {
+    opacity: 100%;
+}
+
+h1 {
+    color: azure; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: azure; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#music, #spotify, #social {
+    display: flex;
+    justify-content: center;
+}
+
+#spotify img {
+     display: block;
+     margin: auto;
+}
+
+audio {
+    border-radius: 25px;
+    background-color: azure;
+    opacity: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+audio:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
